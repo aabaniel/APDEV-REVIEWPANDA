@@ -1,0 +1,33 @@
+<!-- To put files in each other -->
+<div class="body-parent">
+{{> navigation}}
+<div class="parent-row main-area">
+	<div class="posts">
+{{#each post-data}}
+	    <div class="bounded-box">
+	        <div class="bounded-box-inner white-bg">
+	            <div class="inner-header">{{post_title}}</div>
+	            <div class="inner-image">
+	                <img src="{{post_image}}" />
+	            </div>
+	            <div class="inner-like">
+	                <img src="https://cdn.pixabay.com/photo/2016/09/01/08/24/smiley-1635449_960_720.png " />
+	                <img src="https://cdn.pixabay.com/photo/2016/09/01/08/24/smiley-1635448_960_720.png" />
+	            </div>
+	        </div>
+	    </div>
+{{/each}}
+	</div>
+	<div class="friends">
+	    <div class="bounded-box">
+	        <div class="bounded-box-inner white-bg">
+{{#each friend-data}}<div class="box-item friends-item">
+			        <img src="{{friend_img}}">
+			        <strong>{{friend_name}}</strong>
+			    </div>{{/each}}
+	        </div>
+	    </div>
+	</div>
+	</div>
+</div>
+</div>
