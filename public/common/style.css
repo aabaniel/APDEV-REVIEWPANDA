@@ -1,0 +1,535 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family : BananaGroteskRegular;
+}
+.body-parent{
+    display: flex;
+    flex-direction: column;
+}
+@font-face {
+    font-family: HelveticaNeueBold;
+    src:url(fonts/HelveticaNeueBold.ttf);
+}
+@font-face{
+    font-family: BananaGroteskRegular;
+    src:url(fonts/BananaGroteskRegular.ttf);
+}
+
+ 
+/* NAVIGATION BAR */
+nav {
+    background-color: #D70F64;
+    padding: 10px 25px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo-container {
+    width: 5%;
+}
+
+.logo-container-home {
+    width: 30%;
+}
+
+.logo-main-container {
+    width: 22%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    align-items: center; 
+}
+
+.logo-name {
+    font-size: 35px;
+    color: white;
+    margin: 0px;
+    padding-top: 2%;
+
+    margin-bottom: 13px;
+}
+
+/* Login Body and Register Body */
+
+.gray-bg {
+    background-color: #e7ecef;
+    min-height: 90vh;
+    padding-top: 50px;
+}
+
+.gray-bg-home {
+    background-color: #e7ecef;
+    min-height: 90vh;
+}
+
+.card {
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 40px 90px;
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 70px;
+    text-align: center;
+}
+
+.website-label {
+    color: #D70F64;
+}
+
+.center {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 50px;
+}
+
+.col-4 {
+    width: 40%;
+}
+
+.col-8 {
+    width: 60%;
+}
+
+.col-3 {
+    width: 30%;
+}
+
+.col-9 {
+    width: 70%;
+}
+
+.form-label {
+    text-align: center;
+    padding-right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+input {
+    border: 2px solid #D70F64;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.action {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button-login {
+    background-color: #D70F64;
+    font-size: 25px;
+    color: white;
+    border: 2px solid #D70F64;
+    padding: 10px 75px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.link {
+    margin-top: 20px;
+}
+
+.link a {
+    color: #8E8E8E;
+    font-size: 18px;
+}
+
+/* Home */
+.search-bar {
+    width: 350px;
+    border-radius: 25px;
+}
+
+.search-btn {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 10%;
+}
+
+.user-dropdown span {
+    color: white;
+    font-size: 25px;
+}
+
+.user-dropdown img {
+    margin-left: 10px;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 130px;
+    z-index: 1;
+    padding-top: 17px;
+}
+
+.dropdown-items {
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    font-size: 20px;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-link {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    background-color: white;
+    margin: 0px 200px;
+    padding: 2% 5%;
+}
+
+.container h1 {
+    font-size: 40px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.restaurant-item {
+    border: 3px solid #D70F64;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.resto-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.resto-details {
+    padding: 0px 25px;
+}
+
+.resto-details a {
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.additional {
+    justify-content: flex-end;
+}
+
+.rating {
+    display: flex;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.review {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.rating img {
+    padding-top: 15px;
+    margin-left: 10px;
+}
+
+/****************************************  RESTO/USER VIEW  *******************************************************************/
+
+.body{
+    align-content: center;
+}
+.body-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 75px;
+    margin-right: 75px;
+    height: 750px;
+}
+/**************************************************** RESTO *************************************************************************/
+
+.resto-profile{
+    align-content:left;
+    margin-bottom: 50px;
+    
+}
+
+.resto-img-container{
+    width: 20%;
+}
+
+.resto-profile-container{
+    display: flex;
+    border-bottom: 4px solid #D70F64;
+    
+}
+.resto-img > img {
+    border-radius: 50%;
+    width: 90%;
+    height: 90%;
+    margin-right: 20px;
+    object-fit: cover
+    
+}
+
+.resto-profile-desc{
+    width: 80%;
+}
+.resto-name{
+    font-family: HelveticaNeueBold;
+    font-size: 50px;
+}
+.resto-location{
+    font-family: BananaGroteskRegular;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.resto-description{
+    display: flex;
+    font-family: BananaGroteskRegular;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.resto-keywords{
+    color: gray;
+    font-family: BananaGroteskRegular;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.add-review-btn{
+    margin-top: 5px;
+    /*float: right;*/
+}
+/**************************************************** RESTO *************************************************************************/
+
+button{
+    background-color: #D70F64;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-family: BananaGroteskRegular;
+    font-size: 28px;
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+a{
+    color: gray;
+}
+
+.divider{
+
+border-bottom: 4px solid #D70F64;
+}
+
+
+
+.resto-review{
+    align-content: left;
+    align-items: center;
+    height: 100px;
+    border: 6px solid #D70F64;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 321px;
+    border-radius: 40px;
+}
+.resto-review-container{
+    margin-left: 40px;
+    margin-top: 40px;
+    position: relative;
+}
+ 
+.review-title-container{
+    display:flex;
+    flex-direction: row;
+    height: 50px;
+    width: 500px;
+}
+
+/**************************************************** USER *************************************************************************/
+.user-profile{
+    align-content: left;
+    margin-bottom: 50px;
+}
+.user-img-container{
+    width: 20%;
+}
+
+.user-profile-container{
+    display: flex;
+    border-bottom: 4px solid #D70F64;
+}
+
+.user-img > img{
+    border-radius: 50%;
+    width: 90%;
+    max-height: 300px;
+    margin-right: 20px;
+    object-fit: cover
+}
+
+.user-img-container{
+    width: 20%;
+}
+.user-profile-desc{
+    width: 80%;
+}
+
+.user-edit-profile{
+    font-family: BananaGroteskRegular;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+    width: 90%;
+}
+
+.user-profile-desc{
+    display: flex;
+    flex-direction: column;
+    font-family: BananaGroteskRegular;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.username{
+
+    font-family: HelveticaNeueBold;
+    font-size: 50px;
+    
+}
+
+.description{
+    display: flex;
+    font-family: BananaGroteskRegular;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+a{
+    color: gray;
+}
+
+.divider{
+    border-bottom: 4px solid #D70F64;
+    }
+
+.user-review{
+    display: flex;
+    align-content: left;
+    align-items: center;
+    height: 100px;
+    border: 6px solid #D70F64;
+    margin-top: 50px;
+    height: 321px;
+    border-radius: 40px;
+}
+
+.user-review-container{
+    margin-left: 40px;
+    margin-top: 40px;
+    position: relative;
+}
+
+/**************************************************** USER *************************************************************************/
+
+.review-title{
+    font-family: HelveticaNeueBold;
+    font-size: 50px;
+}
+.review-hyperlink{
+    font-family: BananaGroteskRegular;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.review-description{
+    font-family: BananaGroteskRegular;
+    font-size: 25px;
+    height: 100px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+.review-feedback-container{
+    display: flex;
+    width: 380px;
+    height: 40px;
+    margin-top: 30px;
+}
+.review-feedback-text{
+    margin-top: 5px;
+    font-family: BananaGroteskRegular;
+    font-size: 25px;
+}
+
+.review-feedback-buttons > img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.review-rating-container{
+    display: flex;
+    height: 40px;
+    width: 150px;
+    position:absolute;
+    bottom: 0; 
+    right: 0;
+    margin-right: 40px;
+}
+.review-rating{
+    font-family: BananaGroteskRegular;
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+.review-star-img > img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    align-content: center;
+    margin-bottom: 10px;
+    
+}
+/****************************************  RESTO/USER VIEW  *******************************************************************/
