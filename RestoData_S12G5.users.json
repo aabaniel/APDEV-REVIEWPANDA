@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "65e9cec5060510855e813d13"
+  },
+  "user_name": "chaiestrella",
+  "user_password": "pass1",
+  "user_img": "https://cdn.pixabay.com/photo/2023/12/09/10/09/woman-8438999_960_720.png",
+  "user_desc": "Fuelled by an insatiable appetite for culinary excellence, chaiestrella's reviews are a testament to the boundless pleasures of the table, inspiring readers to savor every moment of their dining experience.",
+  "user_reviewid": "[ \"000001\", \"000003\"]"
+},
+{
+  "_id": {
+    "$oid": "65e9d8ad060510855e813d1a"
+  },
+  "user_name": "andreevangelista",
+  "user_password": "pass2",
+  "user_img": "https://cdn.pixabay.com/photo/2023/12/09/10/09/woman-8438999_960_720.png",
+  "user_desc": "Food so yummy, so good! I love to eat Chinese Food so much.",
+  "user_reviewid": "[ \"000002\", \"000004\"]"
+},
+{
+  "_id": {
+    "$oid": "65eda96ed74e29c9bdc12019"
+  },
+  "user_name": "aaronabaniel",
+  "user_password": "pass3",
+  "user_img": "https://cdn.pixabay.com/photo/2023/12/09/10/09/woman-8438999_960_720.png",
+  "user_desc": "I am happy! Food makes me happy!",
+  "user_reviewid": "[ \"000005\", \"000007\"]"
+},
+{
+  "_id": {
+    "$oid": "65eda972d74e29c9bdc1201a"
+  },
+  "user_name": "juliannamagabo",
+  "user_password": "pass4",
+  "user_img": "https://cdn.pixabay.com/photo/2023/12/09/10/09/woman-8438999_960_720.png",
+  "user_desc": "I looove fooood and eaaatingg!!",
+  "user_reviewid": "[ \"000006\", \"000008\"]"
+},
+{
+  "_id": {
+    "$oid": "65eda975d74e29c9bdc1201b"
+  },
+  "user_name": "louislu",
+  "user_password": "pass5",
+  "user_img": "https://cdn.pixabay.com/photo/2023/12/09/10/09/woman-8438999_960_720.png",
+  "user_desc": "Web Design is my passion! Food is love, food is life.",
+  "user_reviewid": "[ \"000009\", \"000010\"]"
+}]

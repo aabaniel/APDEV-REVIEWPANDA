@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "65ef4ae55ef633adaf138b1d"
+  },
+  "resto_desc": "Chowking tantalizes taste buds with its delectable blend of Chinese and Filipino cuisine. Savory favorites like their succulent Chao Fan fried rice, flavorful beef wanton noodles, and mouthwatering dim sum offerings satisfy cravings for authentic Asian flavors. With each bite, Chowking delivers a harmonious fusion that delights discerning palates.",
+  "resto_img": "https://cdn.pixabay.com/photo/2023/12/09/10/09/woman-8438999_960_720.png",
+  "resto_location": "Street, City, Municipality, Country",
+  "resto_name": "Chowking",
+  "resto_reviewid": "[ \"000001\", \"000003\"]"
+},
+{
+  "_id": {
+    "$oid": "65ef4b925ef633adaf138b1e"
+  },
+  "resto_desc": "Jollibee's food delights taste buds with a fusion of Filipino flavors and international influences. From their iconic Chickenjoy, boasting a crispy exterior and juicy meat, to their savory Jolly Spaghetti topped with signature sweet sauce and hotdogs, each dish offers a symphony of flavors that captivates both locals and global palates.",
+  "resto_img": "https://cdn.pixabay.com/photo/2023/12/09/10/09/woman-8438999_960_720.png",
+  "resto_location": "Street, City, Municipality, Country",
+  "resto_name": "Jollibee",
+  "resto_reviewid": "[ \"000007\", \"000010\"]"
+},
+{
+  "_id": {
+    "$oid": "65ef4bfc5ef633adaf138b23"
+  },
+  "resto_desc": "Mang Inasal's food is a celebration of Filipino flavors, grilling up deliciously juicy and flavorful chicken and pork barbecues marinated in traditional local spices. Complemented by unlimited rice and savory condiments like their signature chicken oil, every meal is a feast that captures the essence of Filipino street food culture with each mouthwatering bite.",
+  "resto_img": "https://cdn.pixabay.com/photo/2023/12/09/10/09/woman-8438999_960_720.png",
+  "resto_location": "Street, City, Municipality, Country",
+  "resto_name": "Mang Inasal",
+  "resto_reviewid": "[ \"000003\", \"000008\"]"
+},
+{
+  "_id": {
+    "$oid": "65ef4c0e5ef633adaf138b24"
+  },
+  "resto_desc": "Tapa King reigns supreme with its mouthwatering array of Filipino comfort food, centered around its iconic beef tapa. Tender, marinated beef slices are served alongside garlic rice and a choice of egg, creating a hearty and satisfying meal. With each bite, Tapa King delivers a taste of Filipino home-cooked goodness that keeps customers coming back for more.",
+  "resto_img": "https://cdn.pixabay.com/photo/2023/12/09/10/09/woman-8438999_960_720.png",
+  "resto_location": "Street, City, Municipality, Country",
+  "resto_name": "Tapa King",
+  "resto_reviewid": "[ \"000004\", \"000006\"]"
+},
+{
+  "_id": {
+    "$oid": "65ef4c345ef633adaf138b25"
+  },
+  "resto_desc": "Krispy Kreme delights doughnut enthusiasts worldwide with its iconic Original Glazed doughnuts, boasting a perfect balance of lightness and sweetness. From classic flavors like chocolate glazed to innovative creations like filled doughnuts and seasonal varieties, each bite is a heavenly indulgence that satisfies cravings and brings joy to taste buds everywhere.",
+  "resto_img": "https://cdn.pixabay.com/photo/2023/12/09/10/09/woman-8438999_960_720.png",
+  "resto_location": "Street, City, Municipality, Country",
+  "resto_name": "Krispy Kreme",
+  "resto_reviewid": "[ \"000005\", \"000009\"]"
+}]
